@@ -19,4 +19,5 @@ apache web server start helper
 기본설정 파일: (이전) httpd.conf -> (현재) apache2.conf  
 
 ## 참조사이트
+[Apache : macOS 에서 아파치 웹서버 실행하기](https://xho95.github.io/macos/apache/webserver/mod_wsgi/2016/10/02/Apache-WebServer.html)
 [[Ubuntu] 우분투 Apache(아파치) 이해](https://webdir.tistory.com/196)
