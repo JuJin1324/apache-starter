@@ -11,6 +11,7 @@ apache web server start helper
 웹 페이지 경로: `/Library/WebServer/Documents`  
 설정파일 경로: `/private/etc/apache2`  
 기본설정 파일: httpd.conf  
+로그파일 경로: `/var/log/apache2`
 
 ### Ubuntu
 설치: `sudo apt-get install -y apache2`  
@@ -20,6 +21,7 @@ apache web server start helper
 웹 페이지 경로: `/var/www/html`  
 설정파일 경로: `/etc/apache2`  
 기본설정 파일: (이전) httpd.conf -> (현재) apache2.conf  
+로그파일 경로: `/var/log/apache2`
 
 ## 참조사이트
 [Apache : macOS 에서 아파치 웹서버 실행하기](https://xho95.github.io/macos/apache/webserver/mod_wsgi/2016/10/02/Apache-WebServer.html)
