@@ -8,7 +8,7 @@ apache web server start helper
 구동: `sudo apachectl start`  
 증지: `sudo apachectl stop` 
 재구동: `sudo apachectl restart`  
-확인: `sudo launchctl list | grep httpd`
+확인: `sudo launchctl list | grep httpd`  
 웹 페이지 경로: `/Library/WebServer/Documents`  
 설정파일 경로: `/private/etc/apache2`  
 기본설정 파일: httpd.conf  
