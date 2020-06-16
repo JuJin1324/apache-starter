@@ -6,6 +6,8 @@ apache web server start helper
 설치: 기본 내장  
 버전 확인: `apachectl -v` 명령어로 버전 확인 가능.  
 구동: `sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist`  
+증지: `sudo launchctl unload /System/Library/LaunchDaemons/org.apache.httpd.plist`  
+확인: `sudo launchctl list | grep httpd`
 웹 페이지 경로: `/Library/WebServer/Documents`  
 설정파일 경로: `/private/etc/apache2`  
 기본설정 파일: httpd.conf  
@@ -14,6 +16,7 @@ apache web server start helper
 설치: `sudo apt-get install -y apache2`  
 버전 확인: `apache2 -v`  
 구동: `sudo systemctl start apache2`  
+중지: `sudo systemctl stop apache2`
 웹 페이지 경로: `/var/www/html`  
 설정파일 경로: `/etc/apache2`  
 기본설정 파일: (이전) httpd.conf -> (현재) apache2.conf  
